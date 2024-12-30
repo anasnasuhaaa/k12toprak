@@ -2,52 +2,471 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport"
-    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="icon" type="image/png" sizes="32x32" href="resources/dist/assets/images/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="resources/dist/assets/images/favicon-16x16.png">
-  <title>K12TOPRAK</title>
-  <link rel="stylesheet" href="resources/dist/assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="resources/dist/assets/css/fontawesome/fontawesome.min.css">
-  <link rel="stylesheet" href="resources/dist/assets/css/fontawesome/solid.min.css">
-  <link rel="stylesheet" href="resources/dist/assets/css/fontawesome/brands.min.css">
-  <link rel="stylesheet" href="resources/dist/assets/css/fontawesome/regular.min.css">
-  <link rel="stylesheet" href="resources/dist/assets/css/animate.css">
-  <link rel="stylesheet" href="resources/dist/assets/css/main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/x-icon" href="assets/img/devfoto.png">
+    <title>k12toprak</title>
+    <link rel="stylesheet" href="resources/dist/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="resources/dist/assets/css/fontawesome/fontawesome.min.css">
+    <link rel="stylesheet" href="resources/dist/assets/css/fontawesome/solid.min.css">
+    <link rel="stylesheet" href="resources/dist/assets/css/fontawesome/brands.min.css">
+    <link rel="stylesheet" href="resources/dist/assets/css/fontawesome/regular.min.css">
+    <link rel="stylesheet" href="resources/dist/assets/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="resources/dist/assets/css/animate.css">
+    <link rel="stylesheet" href="resources/dist/assets/css/main.css">
 </head>
 
-<body class="auth auth-error-404">
+<body class="landing-estate">
 
-  <!--start:auth-->
-  <section id="auth" class="auth d-flex justify-center items-center h-screen">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div class="content text-center">
+    <!--start:header-->
+    <header class="header landing-architecture">
+        <!--start:navBar-->
+        <nav class="navbar navbar-expand-lg navbar-white">
+            <div class="container">
+                <a class="navbar-brand" href="resources/dist/">
+                    <!-- <img src="assets/img/logo-k12toprak.png" alt="Logo" > -->
+                    <h3 class="text-white">K12toprak</h3>
+                </a>
+                <button class="navbar-toggler border-none" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <img src="resources/dist/assets/images/icons/ic-menu-white.svg" alt="">
+                </button>
 
-            <!-- <img src="resources/dist/assets/images/illustrations/il-reset-password.svg" alt="" class="mb-68 img-fluid"> -->
-            <div class="heading text-center mb-32">
-              <img src="assets/img/devfoto.png" alt="foto" style="width: 100%;">
-              <h3 class="text-hkgrotesk font-bold text-alt text-black mb-12">Masih proses 💻</h3>
-              <p class="text-gray">Ini juga bingung mau diisi apaan 😅, coba saran guys, yang mau jadi contributor bisa
-                merapat.</p>
-              <p class="text-gray">(ttd Anas)</p>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="close-button">
+                            <button class="navbar-toggler border-none" type="button" data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="true" aria-label="Toggle navigation">
+                                <img src="resources/dist/assets/images/icons/ic-close.svg" alt="">
+                            </button>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="dev.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="dev.html">Fasilitator</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="dev.html">Member</a>
+                        </li>
+                        <li class="nav-item nav-item-has-children">
+                            <a class="nav-link" href="#">
+                                <span>Galery</span>
+                                <i class="fas fa-angle-down"></i>
+                            </a>
+                            <div class="sub-menu sub-menu-3-col">
+                                <div class="sub-nav-items">
+                                    <h5>Galery Learning Camp</h5>
+                                    <ul>
+                                        <li class="nav-item"><a href="dev.html">
+                                                Learning Camp 1</a></li>
+                                        <li class="nav-item"><a href="dev.html">Lerning
+                                                Camp 2</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-outline-white"
+                                href="https://designspace.io/product/ehya-landing-page-design-template/">Get it now</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <!-- <a href="../" class="btn btn-primary">Back to home </a> -->
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--end:auth-->
+        </nav>
+        <!--end:navBar-->
 
-  <!--start:javascript-->
-  <script src="resources/dist/assets/js/jquery.min.js"></script>
-  <script src="resources/dist/assets/js/popper.min.js"></script>
-  <script src="resources/dist/assets/js/bootstrap.min.js"></script>
-  <!--end:javascript-->
+        <!--start:hero-->
+        <div class="hero">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="content">
+                            <span class="badge badge-white-transparent badge-pill wow fadeInUp">#1 KELAS
+                                TERKOMPAK</span>
+                            <h1 class="wow fadeInUp">Ketoprak K12<br />Learning Camp 2025</h1>
+                            <p class="wow fadeInUp">"Kita Explore Target PTN Asik & Kreatif"</p>
+                            <div class="btn-container wow fadeInUp -mx-8">
+                                <!-- <button type="button" class="btn btn-white btn-lg btn-rounded mx-8">About Us</button> -->
+                                <button type="button" class="btn btn-outline-white btn-lg btn-rounded mx-8">About
+                                    Us</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end:hero-->
+    </header>
+    <!--end:header-->
+
+    <!--start:landing-architecture-get-->
+    <section class="landing-architecture-get">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 col-sm-12 col-md-12">
+                    <p class="wow fadeInUp text-18 leading-32 text-gray">Bersama Ketoprak, kita gali potensi, pilih
+                        strategi, dan raih target PTN dengan cara yang seru dan penuh kreativitas!.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end:landing-architecture-get-->
+
+    <!--start:landing-architecture-about-->
+    <section class="landing-architecture-about">
+        <div class="container">
+            <div class="heading">
+                <span class="badge badge-success badge-pill wow fadeInUp">ABOUT US</span>
+                <!-- <h3 class=" wow fadeInUp"></h3> -->
+            </div>
+            <div class="row row-ill">
+                <div class="col-ill">
+                    <div class="illustration illustration-1 wow fadeInUp">
+                        <!-- <img src="resources/dist/assets/images/landing-architecture/architecture-about-1@2x.jpg" /> -->
+                        <img src="assets/img/lc1-lengakp.png" alt="">
+                    </div>
+                </div>
+                <div class="col-ill">
+                    <div class="illustration illustration-2 wow fadeInUp">
+                        <!-- <img src="resources/dist/assets/images/landing-architecture/architecture-about-2@2x.jpg" /> -->
+                        <img src="assets/img/lcbp-poster.jpg" alt="">
+                        <div class="box-since">
+                            <strong class="text-hkgrotesk">46</strong>
+                            <span>Member K12</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-ill mt-12">
+                    <button type="button" class="btn btn-outline-primary btn-lg btn-rounded mx-8">See More</button>
+                </div>
+            </div>
+            <!-- <div class="row">
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="card-with-step-no-img wow fadeInUp">
+                        <div class="card-content wow fadeInUp">
+                            <h4><strong>01</strong> concept design</h4>
+                            <p>We help you concept the design based on your needs. House, Interior, Exterior or
+                                anything. We can assist your needs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="card-with-step-no-img wow fadeInUp">
+                        <div class="card-content wow fadeInUp">
+                            <h4><strong>02</strong> house planning</h4>
+                            <p>We not also help you to concepting your plan, but also we can execute it. We have more
+                                500+ house portfolio in last year.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="card-with-step-no-img wow fadeInUp">
+                        <div class="card-content wow fadeInUp">
+                            <h4><strong>03</strong> budgeting needs</h4>
+                            <p>Stuck to manage your budget for build a house? Don’t worry, We can help you arrange and
+                                plan your budgeting.</p>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </section>
+    <!--end:landing-architecture-about-->
+
+    <!--start:landing-architecture-gallery-->
+    <section class="landing-architecture-gallery">
+        <div class="container">
+            <div class="heading">
+                <span class="badge badge-success badge-pill wow fadeInUp">Documentation</span>
+                <h3 class=" wow fadeInUp">Our LC Gallery</h3>
+                <div class="carousel-nav">
+                    <!-- <ul class="filter">
+                        <li><a class="active" href="">All</a></li>
+                        <li><a href="">Interior</a></li>
+                        <li><a href="">Exterior</a></li>
+                        <li><a href="">Building</a></li>
+                    </ul> -->
+                    <ul class="nav">
+                        <li><a class="" data-toggle="owl-prev" data-target="#architecture-gallery"><i
+                                    class="fa fa-arrow-left"></i></a></li>
+                        <li><a class="" data-toggle="owl-next" data-target="#architecture-gallery"><i
+                                    class="fa fa-arrow-right"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="content architecture-carousel-container">
+                <div class="owl-carousel architecture-gallery wow fadeInUp" id="architecture-gallery" data-dots="0"
+                    data-responsive='{"0":{"items": "1"}, "768":{"items": "3"}, "1199":{"items": "4"}}' data-loop="1">
+                    <div class="architecture-carousel-item">
+                        <img src="assets/img/lc1-km7-2.png" alt="">
+                        <!-- <img src="resources/dist/assets/images/photos/350x450/architecture-gallery-1@2x.jpg" /> -->
+                    </div>
+                    <div class="architecture-carousel-item">
+                        <img src="assets/img/lc1-km7-1.png" />
+                    </div>
+                    <div class="architecture-carousel-item">
+                        <img src="assets/img/lc1-kt7-1.png" />
+                    </div>
+                    <div class="architecture-carousel-item">
+                        <img src="assets/img/lc1-kt7-2.png" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end:landing-architecture-gallery-->
+
+    <!--start:landing-architecture-testimonial-->
+    <!-- <section class="landing-architecture-testimonial">
+        <div class="container">
+            <div class="architecture-testimonial-container">
+                <div class="owl-carousel architecture-testimonial" id="architecture-testimonial"
+                    data-responsive='{"0":{"items": "1"}}' data-dots="1" data-loop="1">
+                    <div class="box-testimonial wow fadeInUp">
+                        <div class="testimonial-content wow fadeInUp">
+                            <p class="text-hkgrotesk">“Thank you so much for your visit last week and for your honest,
+                                clear and professional advice. We were very impressed with how down-to-earth and
+                                straightforward you were in sharing your knowledge of planning etc with us. Having
+                                visited a previous client of Offset today, speaking with her and seeing the work done,
+                                we are now even more impressed and would like to use Offset for plans”</p>
+                        </div>
+                        <div class="testimonial-profile wow fadeInUp">
+                            <div class="c-customer-review-meta">
+                                <div class="user">
+                                    <img src="resources/dist/assets/images/photos/64x64/1.png" alt="">
+                                </div>
+                                <div class="meta">
+                                    <p>Luis Calvillo</p>
+                                    <span>Managing Director Kuva Koffie</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-testimonial wow fadeInUp">
+                        <div class="testimonial-content wow fadeInUp">
+                            <p class="text-hkgrotesk">“Thank you so much for your visit last week and for your honest,
+                                clear and professional advice. We were very impressed with how down-to-earth and
+                                straightforward you were in sharing your knowledge of planning etc with us. Having
+                                visited a previous client of Offset today, speaking with her and seeing the work done,
+                                we are now even more impressed and would like to use Offset for plans”</p>
+                        </div>
+                        <div class="testimonial-profile wow fadeInUp">
+                            <div class="c-customer-review-meta">
+                                <div class="user">
+                                    <img src="resources/dist/assets/images/photos/64x64/1.png" alt="">
+                                </div>
+                                <div class="meta">
+                                    <p class="text-black">Luis Calvillo</p>
+                                    <span class="text-gray"><i>Managing Director Kuva Koffie</i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-testimonial wow fadeInUp">
+                        <div class="testimonial-content wow fadeInUp">
+                            <p class="text-hkgrotesk">“Thank you so much for your visit last week and for your honest,
+                                clear and professional advice. We were very impressed with how down-to-earth and
+                                straightforward you were in sharing your knowledge of planning etc with us. Having
+                                visited a previous client of Offset today, speaking with her and seeing the work done,
+                                we are now even more impressed and would like to use Offset for plans”</p>
+                        </div>
+                        <div class="testimonial-profile wow fadeInUp">
+                            <div class="c-customer-review-meta">
+                                <div class="user">
+                                    <img src="resources/dist/assets/images/photos/64x64/1.png" alt="">
+                                </div>
+                                <div class="meta">
+                                    <p class="text-black">Luis Calvillo</p>
+                                    <span class="text-gray"><i>Managing Director Kuva Koffie</i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!--end:landing-architecture-testimonial-->
+
+    <!--start:landing-architecture-blog-->
+    <!-- <section class="landing-architecture-blog">
+        <div class="container">
+            <div class="heading">
+                <span class="badge badge-success badge-pill wow fadeInUp">ARTICLE</span>
+                <h3 class=" wow fadeInUp">Check Our Story</h3>
+                <div class="heading-button">
+                    <a class="btn btn-rounded btn-outline-gray" href="resources/dist/blog/blog-alt-2.html">Go to Our
+                        Blog</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-lg-4 col-md-6 col-12">
+                    <div class="card card-article card-article-architecture wow fadeInUp">
+                        <div class="card-article-heading">
+                            <img src="resources/dist/assets/images/photos/360x545/1@2x.png" alt="">
+                        </div>
+                        <div class="card-article-body">
+                            <h3 class="title">How to : Make a Budgeting Plan for Business</h3>
+                            <p class="excerpt">Some people maybe still confusing to arrange budgeting for their bu…</p>
+                            <div class="blog-read-more">
+                                <a class="read-more" href="">Read more <i
+                                        class="fas fa-arrow-right text-14 ml-16"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-lg-4 col-md-6 col-12">
+                    <div class="card card-article card-article-architecture wow fadeInUp">
+                        <div class="card-article-heading">
+                            <img src="resources/dist/assets/images/photos/360x545/2@2x.png" alt="">
+                        </div>
+                        <div class="card-article-body">
+                            <h3 class="title">Can We Build house with no Planning before?</h3>
+                            <p class="excerpt">Some people maybe still confusing to arrange budgeting for their bu…</p>
+                            <div class="blog-read-more">
+                                <a class="read-more" href="">Read more <i
+                                        class="fas fa-arrow-right text-14 ml-16"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-lg-4 col-md-6 offset-lg-0 offset-md-3 col-12">
+                    <div class="card card-article card-article-architecture wow fadeInUp">
+                        <div class="card-article-heading">
+                            <img src="resources/dist/assets/images/photos/360x500/4@2x.png" alt="">
+                        </div>
+                        <div class="card-article-body">
+                            <h3 class="title">Choosing Material. Main Path of Architecture</h3>
+                            <p class="excerpt">Some people maybe still confusing to arrange budgeting for their bu…</p>
+                            <div class="blog-read-more">
+                                <a class="read-more" href="">Read more <i
+                                        class="fas fa-arrow-right text-14 ml-16"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-button d-none xs-block sm-block text-center">
+                <a class="btn btn-rounded btn-outline-gray" href="resources/dist/blog/blog-alt-2.html">Go to Our
+                    Blog</a>
+            </div>
+        </div>
+    </section> -->
+    <!--end:landing-architecture-blog-->
+
+    <!--start:landing-architecture-schedule-->
+    <!-- <section class="landing-architecture-schedule">
+        <div class="container">
+            <div class="architecture-schedule-box wow fadeInUp">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h4>Talk to us about your project</h4>
+                        <p>We would love to hear about your project and discuss how we can help. Please fill the form on
+                            the right side to schedule a call or discussion and meeting on the your convenient time.</p>
+                        <h5>Any problem about your booking? <br />You can contact us on :</h5>
+                        <p>+44 (0)20 7686 3445 <br />info@scenarioarchitecture.com</p>
+                        <ul class="brands wow fadeInUp">
+                            <li>
+                                <img src="resources/dist/assets/images/clients-logo/netflix.svg" alt="">
+                            </li>
+                            <li>
+                                <img src="resources/dist/assets/images/clients-logo/fitbit.svg" alt="">
+                            </li>
+                            <li>
+                                <img src="resources/dist/assets/images/clients-logo/google.svg" alt="">
+                            </li>
+                            <li>
+                                <img src="resources/dist/assets/images/clients-logo/airbnb.svg" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="form-box wow fadeInUp">
+                            <strong class="form-title">Schedule Discussion</strong>
+                            <form class="architecture-schedule-form">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>First Name</label>
+                                            <input type="text" class="form-control" placeholder="Your Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Last Name</label>
+                                            <input type="text" class="form-control" placeholder="Your Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label>Your Email</label>
+                                            <input type="email" class="form-control" placeholder="YourName@mail.com">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label>When you free?</label>
+                                            <input type="date" class="form-control" placeholder="dd/mm/yyyy">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label>Which do you prefer?</label>
+                                            <select class="form-control input-lg selectpicker">
+                                                <option selected>Meeting</option>
+                                                <option>Singapore</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <button class="btn btn-lg btn-block btn-primary btn-submit">Book a
+                                            Schedule</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!--end:landing-architecture-schedule-->
+
+    <!--start:section footer-->
+    <footer id="footer" class="footer footer-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-xl-12">
+                    <div class="footer-copyright wow fadeInUp">
+                        <div class="btn btn-rounded btn-primary btn-ic pointer-events-none">
+                            <!-- <i class="fas fa-heart text-24"></i> -->
+                        </div>
+                        <p>Copyright © 2024. K12toprak.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--end:section footer-->
+
+    <!--start:javascript-->
+    <script src="resources/dist/assets/js/jquery.min.js"></script>
+    <script src="resources/dist/assets/js/popper.min.js"></script>
+    <script src="resources/dist/assets/js/bootstrap.min.js"></script>
+    <script src="resources/dist/assets/js/bootstrap-select.min.js"></script>
+    <script src="resources/dist/assets/js/wow.min.js"></script>
+    <script src="resources/dist/assets/js/owl.carousel.min.js"></script>
+    <script src="resources/dist/assets/js/index.js"></script>
+    <!--end:javascript-->
 
 </body>
 

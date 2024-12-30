@@ -90101,7 +90101,7 @@ header.landing-architecture .hero p {
 }
 .landing-architecture-about .box-since {
   position: absolute;
-  right: 76px;
+  right: 200px;
   bottom: -80px;
   display: flex;
   flex-flow: column;
@@ -90687,7 +90687,7 @@ header.landing-architecture .hero p {
     margin-right: 0;
   }
   .landing-architecture-gallery .architecture-carousel-item {
-    height: 360px;
+    height: 200px;
     padding: 0;
     border-radius: 6.4px;
     overflow: hidden;
