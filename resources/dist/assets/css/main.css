@@ -115463,8 +115463,8 @@ ul {
   padding: 48px 64px;
 }
 .modal-content {
-  padding: 48px 64px;
-  border-radius: 12px;
+  padding: 10px 20px;
+  border-radius: 10px;
   border: none;
 }
 .modal-content .modal-body,

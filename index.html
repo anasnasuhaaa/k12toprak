@@ -25,10 +25,10 @@
         <!--start:navBar-->
         <nav class="navbar navbar-expand-lg navbar-white">
             <div class="container">
-                <a class="navbar-brand" href="resources/dist/">
-                    <!-- <img src="assets/img/logo-k12toprak.png" alt="Logo" > -->
-                    <h3 class="text-white">K12toprak</h3>
-                </a>
+                <!-- <a class="navbar-brand" href="resources/dist/"> -->
+                <!-- <img src="assets/img/logo-k12toprak.png" alt="Logo" > -->
+                <h4 class="text-white">K12toprak</h4>
+                <!-- </a> -->
                 <button class="navbar-toggler border-none" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -74,8 +74,7 @@
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="btn btn-outline-white"
-                                href="https://instagram.com/k12toprak">Instagram</a>
+                            <a class="btn btn-outline-white" href="https://instagram.com/k12toprak">Instagram</a>
                         </li>
                     </ul>
                 </div>
@@ -95,7 +94,8 @@
                             <p class="wow fadeInUp">"Kita Explore Target PTN Asik & Kreatif"</p>
                             <div class="btn-container wow fadeInUp -mx-8">
                                 <!-- <button type="button" class="btn btn-white btn-lg btn-rounded mx-8">About Us</button> -->
-                                <button type="button" class="btn btn-outline-white btn-lg btn-rounded mx-8">About
+                                <button type="button" class="btn btn-outline-white btn-lg btn-rounded mx-8"
+                                    data-toggle="modal" data-target="#exampleModalCenter">About
                                     Us</button>
                             </div>
                         </div>
@@ -145,7 +145,32 @@
                     </div>
                 </div>
                 <div class="col-ill mt-12">
-                    <button type="button" class="btn btn-outline-primary btn-lg btn-rounded mx-8">See More</button>
+                    <button type="button" class="btn btn-outline-primary btn-lg btn-rounded mx-8" data-toggle="modal"
+                        data-target="#exampleModalCenter">See More</button>
+                    <!-- modal -->
+                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h4 class="modal-title" id="exampleModalLongTitle">Belum
+                                        jadi bang 😥
+                                    </h4>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="assets/img/devfoto.png" class="w-100" alt="">
+                                </div>
+                                <div class="modal-footer d-flex justify-content-center">
+                                    <button type="button" class="btn btn-secondary btn-sm"
+                                        data-dismiss="modal">Close</button>
+                                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <!-- <div class="row">
